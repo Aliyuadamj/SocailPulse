@@ -1,0 +1,12 @@
+.img_head{
+    background-image: url(images/top.jpg);
+    background-size: contain;
+    
+    background-position: center;
+    padding-left: 50px;
+    height: 700px;
+}
+
+.form-body{
+    padding-top: 10px;
+}

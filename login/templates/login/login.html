@@ -1,0 +1,26 @@
+{% extends 'login/base.html' %}
+
+
+
+
+{%block body%}
+<body>
+    <header></header>
+    <section>
+        
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">{{login.first_name}} {{login.surname}}</h5>
+      <p class="card-text">Email: {{ login.email | truncatechars:30 }}</p>
+      <p class="card-text">password: {{ login.password }}</p>
+      <p class="card-text"><small class="text-muted">Created: {{ product.created}}</small></p>
+      <p class="card-text"><small class="text-muted">Updated: {{ product.updated }}</small></p>
+      
+    </div>
+    <img class="card-img-bottom" src="{% if product.image %}{{product.image.url}}{% endif %}" alt="Card image cap">
+  </div>
+    </section>
+    
+
+
+{%endblock%}

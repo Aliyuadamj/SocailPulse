@@ -1,0 +1,22 @@
+.img_head{
+    background-image: url(images/top.jpg);
+    background-size: contain;
+    
+    background-position: center;
+    padding-left: 50px;
+    height: 700px;
+}
+#mainbody{
+    height: 800px;
+
+}
+
+
+footer{
+    background-image: url(images/17.\ Doogee.jpg);
+    background-color:  #271f1f;
+    background-size: cover;
+    height: 500px;
+}
+
+
